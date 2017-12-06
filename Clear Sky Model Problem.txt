@@ -1,0 +1,35 @@
+Fixed-angle site ASGW is used to measure the performance of Bird Clear Sky Model
+Problem:
+  1. The model overestimates the measured data in the morning (06:30 - 10:00) on an average 36%.
+  2. The model underestimates the measured data in the afternoon (mostly 16:00 - 18:00) on an average -70%.
+
+Solution - how to tackle this discrepancy?
+  1. Make every parameter as accurate as possible.
+
+Check List:
+  1. @t_mn checks
+  2. @t_yr checks
+  3. @t_dd ?
+  4. @JD checks
+  5. @t checks
+  6. @Theta_LO checks
+  7. @M checks
+  8. @e checks
+  9. @c corrected
+  10. @Theta_TLO checks
+  11. @v checks
+  12. @r checks
+  13. @lambda corrected
+  14. @Epsilon_0 checks
+  15. @Epsilon_p corrected
+  16. @delta checks
+  17. @y checks
+  18. @EqnTime checks
+  19. @TimeOffset checks
+  20. @TrueSolarTime checks
+  21. @HourAngle checks
+  22. @zenith checks
+  23. @SolarElevation checks
+  24. @RC checks
+
+Conclusion: No room to tune these parameters. 
