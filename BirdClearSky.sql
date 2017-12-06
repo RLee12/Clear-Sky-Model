@@ -1,3 +1,5 @@
+-- T-SQL
+
 -- Input parameters
 DECLARE @SiteDbName VARCHAR(200) = '%SiteDb_Woodmere%'
 DECLARE @BeginDate DATETIME = '2017-04-01 00:00:00'
